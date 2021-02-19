@@ -1,0 +1,19 @@
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(1rem, auto);
+    grid-gap: .5em;
+    border: 1px solid red;
+}
+
+.box1, .box3{
+    background-color: lightgrey;
+    border: 3px dotted blue;
+}
+
+.box2, .box4{
+    background-color: lightslategray;
+    border: 3px dashed green;
+}

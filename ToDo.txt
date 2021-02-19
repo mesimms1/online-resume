@@ -1,0 +1,9 @@
+Change Logo to Have the Asterisk look.
+
+make banner the same color as the logo
+
+figure out how to align the navigation div inline with the logo. 
+
+reduce the margin in the main container. Close the gap between navbar and the main content.
+
+
