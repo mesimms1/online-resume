@@ -1,5 +1,7 @@
 /*Dark Blue = rgb(2, 66, 120)
-Light Blue = rgb(169, 251, 255)*/
+Light Blue = rgb(169, 251, 255)
+Cursive Font: (link google fonts) font-family: 'Amatic SC', cursive; */
+
 
 .container{
     display: grid;
