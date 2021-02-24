@@ -2,15 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experience - Simms</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Simms Experience - Bootstrap</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
 </head>
 <body>
-    <header>
-        <h2>Michael E. Simms</h2>
-        <h4>Jr. Web Developer</h4>
-    </header>
+    <div class="container">
+      <header>
+        <!--Navigation Bar on Top-->
+          <div class="row">    
+            <div class="col">
+              <nav class="navbar fixed-top navbar-expand-md navbar-light px-5" style="background-image: url('img/banner-binary.webp'); max-height: 100px; border-bottom-left-radius: 7px; border-bottom-right-radius: 7px;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="/bootstrap.html"><img src="img/simms_logo.png" style="height: 5rem; margin: 0; padding: 0; border-radius: 15px;"></a>
+                  <span class="text-end">
+                  <button class="navbar-toggler text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="background-color:rgb(2, 66, 120);">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link"  href="bootstrap.html" style="color: rgb(169, 251, 255);">Home</a>
+                      <a class="nav-link active fw-bolder" href="experience.html" style="color: rgb(169,251, 255);">Experience</a>
+                      <a class="nav-link" href="projects.html" style="color: rgb(169,251, 255);">Portfolio</a>
+                      <a class="nav-link" href="about_me.html" style="color: rgb(169,251, 255);">Profile</a>
+                      <a class="nav-link" href="contact.html" style="color: rgb(169,251, 255);">Contact</a>
+                    </div>
+                  </div>
+                  </span>
+                </div>
+              </nav>
+              
+            </div>          
+          </div>
+  
+      </header> 
 
     <main>
         <!--experience-->
@@ -115,13 +143,32 @@
                     <li>Completed Bachelors Degree with three majors within three years.</li>
                 </ul>   
             </div>
-
-                
-               
-            
-              
+            </div>  
         </div>
+    </div>
     </main>
+
+    <footer class="footer container-fluid mt-auto py-2" style="background-image: url('img/banner-binary.webp'); max-height: 75px; border-top-left-radius: 7px; border-top-right-radius: 7px;">
+        <div class="row" style="width: 85%; margin: auto; background-color: rgb(169, 251, 255); color: rgb(2, 66, 120); border-radius: 7px;">
+          <div class="col">
+            <p style="padding-top: 1em;">© Michael E. Simms</p>
+          </div>
+          <div class="col-6 text-end" style="padding-top: .65em;">
+            <a href="experience.html"><img src="img/icons/resume_icon.png" alt="resume icon"style="max-width: 35px; margin: 0px 15px;"></a>
+            <a href="projects.html"><img src="img/icons/portfolio_icon.png" alt="portfolio icon"style="max-width: 35px; margin: 0px 15px;"></a>
+            <a href="about_me.html"><img src="img/icons/profile_icon.png" alt="profile icon"style="max-width: 35px; margin: 0px 15px;"></a>
+            <a href="contact.html"><img src="img/icons/email_icon.png" alt="Email Icon" style="max-width: 35px; margin: 0px 15px;"></a>
+            <a href="https://github.com/mesimms1/" target="_blank"><img src="img/icons/github_icon.png" alt="Github Icon" style="max-width: 35px; margin: 0px 15px;"></a>
+            <a href="https://www.linkedin.com/in/michael-simms-11318b201/" target="_blank"><img src="img/icons/linkedin_icon.png" alt="linkedin Icon" style="max-width: 35px; margin: 0px 15px;"></a>
+          </div>
+        </div>
+    </footer>    
+  
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  
+    
+
 
 </body>
 </html>
