@@ -69,3 +69,7 @@ aside{
     position: absolute;
     height: 2rem;
 }
+
+.summary {
+    margin-top: 50px;
+}

@@ -17,3 +17,9 @@ main{
     background-color: lightslategray;
     border: 3px dashed green;
 }
+
+.summary {
+    margin-top: 115px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(2, 66, 120);
+}
