@@ -10,3 +10,4 @@ take all inline styles and put them into a separate css sheet
 
 Make contact form functional
 
+Double Check the Responsive Design Layout
