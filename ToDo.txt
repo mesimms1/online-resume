@@ -1,9 +1,5 @@
 Change Logo to Have the Asterisk look.
 
-make banner the same color as the logo
+figure out experience according so that not all of them open at the same time. 
 
-figure out how to align the navigation div inline with the logo. 
-
-reduce the margin in the main container. Close the gap between navbar and the main content.
-
-
+add shaddow for hover on the profession images in experience page. 
