@@ -3,3 +3,10 @@ Change Logo to Have the Asterisk look.
 figure out experience according so that not all of them open at the same time. 
 
 add shaddow for hover on the profession images in experience page. 
+
+add the html, css, javascript logos to index page.
+
+take all inline styles and put them into a separate css sheet
+
+Make contact form functional
+
